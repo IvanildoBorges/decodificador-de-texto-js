@@ -7,6 +7,11 @@
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/header.css">
     <link rel="stylesheet" href="./styles/main-container.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+        integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
     <title>ED Code</title>
 </head>
 <body>
@@ -17,13 +22,15 @@
         <div class="main-container-input">
             <input type="text" name="input-text" id="input-text" placeholder="Digite seu texto">
         </div>
-        <div>
-            <source src="" alt="">
-            <p>Apenas letras minúsculas e sem acentos.</p>
-        </div>
-        <div>
-            <button type="button">Criptografar</button>
-            <button type="button">Descriptografar</button>
+        <div class="main-container-actions">
+            <div class="actions-notice">
+                <span class="fas fa-exclamation-circle"></span>
+                <p>Apenas letras minúsculas e sem acentos.</p>
+            </div>
+            <div class="actions-buttons">
+                <button class="cta" type="button">Criptografar</button>
+                <button class="ghost" type="button">Descriptografar</button>
+            </div>
         </div>
         <div>
             <h2>Nenhuma mensagem encontrada</h2>
