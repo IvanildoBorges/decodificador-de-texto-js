@@ -1,6 +1,6 @@
 header {
     display: flex;
-    padding: 24px 12px;
+    padding: 24px 16px;
 }
 
 header > .header-title {
