@@ -1,0 +1,10 @@
+header {
+    display: flex;
+    padding: 24px 12px;
+}
+
+header > .header-title {
+    color: var(--primary-color);
+    font-size: 2rem;
+    font-weight: 600;
+}
