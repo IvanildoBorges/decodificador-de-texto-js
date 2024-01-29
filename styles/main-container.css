@@ -7,7 +7,7 @@
 }
 
 .main-container .main-container-input {
-    min-height: 25.8vh;
+    min-height: 25vh;
 }
 
 .main-container .main-container-input input {
@@ -24,32 +24,32 @@
     color: var(--primary-color);
 }
 
-.main-container-actions {
+.main-container .main-container-actions {
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 16px;
 }
 
-.main-container-actions .actions-notice {
+.main-container .main-container-actions .actions-notice {
     display: flex;
     gap: 8px;
     color: var(--secondary-color);
 }
 
-.main-container-actions .actions-notice p {
+.main-container .main-container-actions .actions-notice p {
     font-size: 0.75rem;
     line-height: 1.125rem;
     font-weight: 400;
 }
 
-.main-container-actions .actions-buttons {
+.main-container .main-container-actions .actions-buttons {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
 }
 
-.main-container-actions .actions-buttons button {
+.main-container .main-container-actions .actions-buttons button {
     width: 100%;
     border-radius: 24px;
     padding: 24px;
@@ -58,13 +58,39 @@
     line-height: 1.21rem;
 }
 
-.main-container-actions .actions-buttons .cta {
+.main-container .main-container-actions .actions-buttons .cta {
     background-color: var(--primary-color);
     color: var(--tertiary-color);
 }
 
-.main-container-actions .actions-buttons .ghost {
+.main-container .main-container-actions .actions-buttons .ghost {
     background-color: transparent;
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
+}
+
+.main-container .main-container-message {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 32px;
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px var(--bg-shadow);
+    
+    background-color: var(--tertiary-color);
+    color: var(--quaternary-color);
+    text-align: center;
+}
+
+.main-container .main-container-message .subtitle {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+}
+
+.main-container .main-container-message p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
 }
