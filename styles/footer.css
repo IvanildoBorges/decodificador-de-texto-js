@@ -1,0 +1,18 @@
+footer {
+    height: 32px;
+    background-color: var(--tertiary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer-author {
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: var(--secondary-color);
+}
+
+footer .footer-author a {
+    font-weight: 600;
+    color: var(--primary-color);
+}
