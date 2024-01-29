@@ -4,12 +4,22 @@
         padding: 48px 40px;
     }
 
+    .main-container {
+        padding: 116px 48px 80px;
+    }
+
+    .main-container .main-container-input textarea {
+        min-height: 40vh;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .main-container .main-container-actions .actions-buttons {
+        flex-direction: row;
+    }
     
+
 }
 
 /* DESKTOP */
-@media screen and (max-width: 1024px) {
-    header {
-        padding: 48px 40px;
-    }
-}
+@media screen and (max-width: 1024px) {}
