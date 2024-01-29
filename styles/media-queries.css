@@ -17,9 +17,43 @@
     .main-container .main-container-actions .actions-buttons {
         flex-direction: row;
     }
-    
-
 }
 
 /* DESKTOP */
-@media screen and (max-width: 1024px) {}
+@media screen and (min-width: 1024px) {
+    header {
+        position: absolute;
+        top: 40px;
+        left: 40px;
+        padding: 0px 40px;
+    }
+
+    .main-container {
+        width: 90vw;
+        padding: 18vh 20vw 8vh;
+    }
+
+    .main-container .main-container-input textarea {
+        min-height: 55vh;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .main-container .main-container-actions .actions-buttons {
+        flex-direction: row;
+    }
+
+    .main-container .main-container-message {
+        position: absolute;
+        top: 40px;
+        right: 40px;
+        bottom: 40px;
+        
+        width: 25vw;
+        justify-content: center;
+    }
+
+    .main-container .main-container-message img {
+        display: block;
+    }
+}
