@@ -13,19 +13,21 @@
 .main-container .main-container-input textarea {
     width: 100%;
     min-height: 25vh;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 400;
-    line-height: 3rem;
+    line-height: 2.25rem;
     color: var(--primary-color);
     background-color: transparent;
-    border: none;
+    border: 1px solid var(--primary-color);
     outline: none;
     border-radius: 8px;
     padding-left: 8px;
     padding-right: 8px;
+    resize: none;
 }
 
 .main-container textarea::placeholder {
+    font-size: 2rem;
     color: var(--primary-color);
 }
 
@@ -54,7 +56,7 @@
     gap: 1.5rem;
 }
 
-.main-container .main-container-actions .actions-buttons button {
+button {
     width: 100%;
     border-radius: 24px;
     padding: 24px;
@@ -63,12 +65,12 @@
     line-height: 1.21rem;
 }
 
-.main-container .main-container-actions .actions-buttons .cta {
+.cta {
     background-color: var(--primary-color);
     color: var(--tertiary-color);
 }
 
-.main-container .main-container-actions .actions-buttons .ghost {
+.ghost {
     background-color: transparent;
     color: var(--primary-color);
     border: 1px solid var(--primary-color);
@@ -79,13 +81,15 @@
     flex-direction: column;
     gap: 16px;
     width: 100%;
+    height: 75vh;
     padding: 32px;
     border-radius: 32px;
     box-shadow: 0px 24px 32px -8px var(--bg-shadow);
     
     background-color: var(--tertiary-color);
-    color: var(--quaternary-color);
     text-align: center;
+
+    overflow-y: scroll;
 }
 
 .main-container .main-container-message .subtitle {
@@ -99,4 +103,24 @@
     font-size: 1rem;
     line-height: 1.5rem;
     font-weight: 400;
+    color: var(--quaternary-color);
+}
+
+.main-container .main-container-message .main-container-copy {
+    display: flex;
+    position: sticky;
+    right: 0px;
+    bottom: -24px;
+    width: 100%;
+    background-color: var(--tertiary-color); 
+}
+
+.main-container .main-container-message .main-container-copy #copy {
+    display: none;
+    background-color: var(--tertiary-color);
+    position: absolute;
+    left: -16px;
+    right: -16px;
+    bottom: 0px;
+    width: auto;
 }

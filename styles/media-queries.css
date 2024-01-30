@@ -10,12 +10,26 @@
 
     .main-container .main-container-input textarea {
         min-height: 40vh;
-        padding-left: 0px;
-        padding-right: 0px;
+        padding-left: 16px;
+        padding-right: 16px;
     }
 
     .main-container .main-container-actions .actions-buttons {
         flex-direction: row;
+    }
+
+    .main-container .main-container-message {
+        height: 60vh;
+    }
+
+    .main-container .main-container-message p {
+        margin-bottom: 70px;
+    }
+    
+    .main-container .main-container-message .main-container-copy #copy {
+        left: -8px;
+        right: -8px;
+        bottom: 0px;
     }
 }
 
@@ -35,8 +49,7 @@
 
     .main-container .main-container-input textarea {
         min-height: 55vh;
-        padding-left: 0px;
-        padding-right: 0px;
+        padding: 8px 24px;
     }
 
     .main-container .main-container-actions .actions-buttons {
@@ -49,11 +62,16 @@
         right: 40px;
         bottom: 40px;
         
-        width: 25vw;
+        width: 20vw;
+        height: auto;
         justify-content: center;
     }
 
     .main-container .main-container-message img {
         display: block;
+    }
+
+    .main-container .main-container-message p {
+        margin-bottom: 70px;
     }
 }

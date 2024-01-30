@@ -30,20 +30,23 @@
                 <p>Apenas letras minúsculas e sem acentos.</p>
             </div>
             <div class="actions-buttons">
-                <button class="cta" type="button">Criptografar</button>
-                <button class="ghost" type="button">Descriptografar</button>
+                <button onclick="cryptoText()" class="cta" type="button">Criptografar</button>
+                <button onclick="desCryptoText()" class="ghost" type="button">Descriptografar</button>
             </div>
         </div>
         <div class="main-container-message">
-            <img src="./assets/images/not-message.png" alt="Ícone de uma pessoa buscando algo" hidden>
+            <img src="./assets/images/not-message.png" alt="Ícone de uma pessoa buscando algo">
             <h2 class="subtitle">Nenhuma mensagem encontrada</h2>
             <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+            <div class="main-container-copy">
+                <button onclick="copyText()" type="button" class="ghost" id="copy">Copiar</button>
+            </div>
         </div>
     </main>
     <footer>
         <p class="footer-author">Desenvolvido por <a href="https://www.linkedin.com/in/ivanildoborges/" target="_blank" referrerpolicy="no-referrer">Ivanildo Borges</a>
         </p>
     </footer>
-    <script src="script.js" type="text/javacript"></script>
+    <script src="script.js" type="text/javascript"></script>
 </body>
 </html>
